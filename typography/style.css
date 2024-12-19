@@ -1,0 +1,681 @@
+body {
+    margin: 0;
+    background-color: #F0F0F0;
+    font-family: "Eastman Grotesque Alt Regular";
+    font-weight: normal;
+    font-style: normal;
+    animation: PageTransition 0.75s;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+    opacity: 0.6;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+    opacity: 0.6;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+    opacity: 0.6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@keyframes PageTransition {
+    from {
+        opacity: 0;
+        transform: translateX(-10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+
+
+@import url(https://webfonts.fontstand.com/WF-084748-abea84abb4dcd8075f46a9d4cbbc4d88.css);
+@import url(https://use.typekit.net/ehj8gbe.css);
+
+@font-face {
+    font-family: "capitolium light";
+    src: url("https://use.typekit.net/ehj8gbe.css") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title {
+    font-size: 2.5em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "CapitoliumHead 2 W03 SemiBold";
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+.titledetail1 {
+    font-size: 3em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "capitolium-2", serif;
+    font-style: italic;
+}
+
+.titledetail2 {
+    font-size: 3em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "capitolium-2", serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.titledetail3 {
+    font-size: 3em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "capitolium-2", serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.titledetail4 {
+    font-size: 3em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "capitolium-2", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.titledetail5 {
+    font-size: 3em;
+    color: black;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: "capitolium-2", serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fontname1 {
+    font-family: "capitolium-2", serif;
+    margin-left: -23px;
+    padding: 0;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.fontname2 {
+    font-family: "capitolium-2", serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: right;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+    top: 40%;
+    height: auto;
+    overflow: hidden;
+}
+
+.scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.scroll div {
+    display: flex;
+}
+
+
+
+.slide1 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 10px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    transition: 3s;
+    font-family: "capitolium-2", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.slide2 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 10px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    transition: 3s;
+    font-family: "capitolium-2", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.slide3 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 10px;
+
+    padding-bottom: 45px;
+    padding-top: 45px;
+    transition: 3s;
+    font-family: "capitolium-2", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+
+}
+
+.slide4 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 40px;
+    line-height: 10px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    transition: 3s;
+    font-family: "capitolium-2", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.slide5 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 40px;
+    line-height: 10px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    transition: 3s;
+    font-family: "capitolium-2", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.slide1:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+}
+
+.slide2:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+}
+
+.slide3:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+}
+
+.slide4:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+}
+
+.slide5:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+}
+
+
+
+.RightToLeft {
+    animation: RightToLeft 25s infinite linear;
+}
+
+@keyframes RightToLeft {
+    from {
+        transform: translateX(-1%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.LeftToRight {
+    animation: LeftToRight 25s infinite linear;
+}
+
+@keyframes LeftToRight {
+    from {
+        transform: translateX(-41%);
+    }
+
+    to {
+        transform: translateX(1%);
+    }
+}
+
+.LeftToRightFast {
+    animation: LeftToRightFast 20s infinite linear;
+}
+
+@keyframes LeftToRightFast {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(1%);
+    }
+}
+
+.RightToLeftFast {
+    animation: RightToLeftFast 15s infinite linear;
+}
+
+@keyframes RightToLeftFast {
+    from {
+        transform: translateX(-1%);
+    }
+
+    to {
+        transform: translateX(-25%);
+    }
+}
+
+.info1 {
+    max-width: 27em;
+    height: 18em;
+    font-size: 0.8em;
+    font-family: "capitolium-2", serif;
+}
+
+
+.info1:first-letter {
+    font-family: "capitolium-2", serif;
+    float: left;
+    font-size: 3rem;
+    line-height: 0.4;
+    margin: 0.1em 0.1em 0.1em 0;
+}
+
+
+.gerard {
+    max-width: 23em;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.bord {
+    max-width: 26em;
+    position: absolute;
+    right: 900px;
+    top: 990px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+}
+
+.detailletter1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    margin: 20px;
+    font-weight: 400;
+    font-style: italic;
+    transition: .4s;
+}
+
+.detailletter2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    margin: 20px;
+    font-weight: 300;
+    font-style: normal;
+    transition: .4s;
+}
+
+.detailletter3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    margin: 20px;
+    font-weight: 700;
+    font-style: italic;
+    transition: .4s;
+}
+
+.detailletter4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    margin: 20px;
+    font-weight: 400;
+    font-style: normal;
+    transition: .4s;
+}
+
+.detailletter5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    margin: 20px;
+    font-weight: 700;
+    font-style: normal;
+    transition: .4s;
+}
+
+.grid p:hover {
+    background-color: black;
+    color: #F0F0F0;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+#arrow2 {
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    display: none;
+}
+
+#arrow2:hover {
+    cursor: pointer;
+}
+
+
+.bron {
+    font-size: 0.5em;
+    color: black;
+    font-style: normal;
+    font-family: "capitolium-2", serif;
+    line-height: 0.4pt;
+}
+
+.responsive {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    max-height: 100%;
+    width: 100%;
+}
+
+#bigletter {
+    font-size: 18em;
+    z-index: 1000;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "capitolium-2", serif;
+    display: none;
+    margin-top: 20vh;
+}
+
+
+
+@media (min-width: 620px) {
+    .info1 {
+        max-width: 35em;
+        height: 18em;
+        font-size: 1.1em;
+        font-family: "capitolium-2", serif;
+    }
+
+    .gerard {
+        max-width: 33em;
+        margin-top: 30px;
+    }
+
+    .info1:first-letter {
+        font-size: 6rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .titledetail1 {
+        font-size: 4em;
+    }
+
+    .titledetail2 {
+        font-size: 4em;
+    }
+
+    .titledetail3 {
+        font-size: 4em;
+    }
+
+    .titledetail4 {
+        font-size: 4em;
+    }
+
+    .titledetail5 {
+        font-size: 4em;
+    }
+
+    .arrow {
+        left: 60px;
+        top: 50px;
+    }
+
+    #arrow2 {
+        left: 60px;
+        top: 50px;
+    }
+}
+
+@media (min-width: 780px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #bigletter {
+        margin-top: 0vh;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .responsive {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-bottom: 70px;
+        margin-top: 30px;
+
+    }
+
+    .fontname2 {
+        width: 95vw;
+    }
+
+    .gerard {
+        padding-top: 0px;
+    }
+
+    .fontname1 {
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    .fontname2 {
+        font-size: 1.1em;
+        margin: 0
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .info1 {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .title {
+        font-size: 9em;
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 670px) {
+    .titledetail1 {
+        padding-top: 50px;
+    }
+
+    .titledetail2 {
+        padding-top: 50px;
+    }
+
+    .titledetail3 {
+        padding-top: 50px;
+    }
+
+    .titledetail4 {
+        padding-top: 50px;
+    }
+
+    .titledetail5 {
+        padding-top: 50px;
+    }
+
+    #bigletter {
+        font-size: 35em;
+    }
+}
+
+
+
+
+
+#popup {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    width: 0vw;
+    height: 100vh;
+    background-color: #F0F0F0;
+    top: 0px;
+    left: 0px;
+    transition: 0.7s;
+    display: hidden;
+}

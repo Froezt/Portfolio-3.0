@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="no">
+
+    <title>Opdracht 2: Interactie galore - Frontend voor Designers</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+    <p id="demo"></p>
+    <h1>Bingo</h1>
+    <button id="startbutton" class="button">Start</button>
+    <p id="rollhelp">Click here or press SPACE to roll a number! --></p>
+    <button onclick="roll()" id="rollbutton" class="button">roll</button>
+    <button id="bingobutton" class="button">Bingo!</button>
+    <p id="bingohelp">Click here or say "Bingo" to call your bingo!</p>
+    <p id="nobingo">You don't have Bingo yet! You've got to sing a song!</p>
+    <p id="welbingo">BINGO!</p>
+    <div id="roller">
+        <ul class="rollnumbers">
+            <li>34</li>
+            <li>38</li>
+            <li>4</li>
+            <li>12</li>
+            <li>75</li>
+            <li>56</li>
+            <li>36</li>
+            <li>44</li>
+            <li>8</li>
+            <li>1</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <li class="kaart">
+        <div class="box2" draggable="false">
+            <p>B</p>
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box2">
+            <p>I</p>
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box2">
+            <p>N</p>
+        </div>
+
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box2">
+            <p>G</p>
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box2">
+            <p>O</p>
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+        <div class="box">
+        </div>
+    </li>
+    <div class="list"><li>Use the stamp to mark your numbers!</li><li><img class="stamp" src="images/stamp.png" alt="stamp" draggable="true"></li>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
