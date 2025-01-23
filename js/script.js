@@ -210,30 +210,26 @@ function activateWork() {;
 
 function homeGone1() {
     element6 = document.getElementsByClassName("contact")[0];
-    element2 = document.getElementById("me");
+    element2 = document.getElementsByClassName("me")[0];
     if (element2.classList.contains("meGone")  && element6.classList.contains("contactActive")) {
         element6.classList.toggle("contactactive")
     }
     else {
         element2.classList.toggle("meGone");
-    element3 = document.getElementById("title");
+    element3 = document.getElementsByClassName("title")[0];
     element3.classList.toggle("titleGone");
-    element3.style.transform = "translate(-30em, 2em)";
-    element4 = document.getElementById("name");
-    element4.style.transform = "translate(-10em, 1em)";
+    element4 = document.getElementsByClassName("name")[0];
     element4.classList.toggle("nameGone");
     }
     workButton = document.getElementById("workKnop");
 }
 
 function homeBack() {
-    element2 = document.getElementById("me");
+    element2 = document.getElementsByClassName("me")[0];
     element2.classList.toggle("meGone");
-    element3 = document.getElementById("title");
+    element3 = document.getElementsByClassName("title")[0];
     element3.classList.toggle("titleGone");
-    element3.style.transform = "translate(4em, 2em)";
-    element4 = document.getElementById("name");
-    element4.style.transform = "translate(0.5em, 1em)";
+    element4 = document.getElementsByClassName("name")[0];
     element4.classList.toggle("nameGone");
     console.log("homeback called");
     workButton = document.getElementById("workKnop");

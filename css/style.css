@@ -100,7 +100,7 @@ body {
 }
 
 
-#name {
+.name {
     margin: auto;
     font-size: 10em;
     width: 100%;
@@ -112,7 +112,7 @@ body {
 
 
 
-#title {
+.title {
     margin: auto;
     font-size: 3em;
     width: 100%;
@@ -123,7 +123,7 @@ body {
     transition: .7s;
 }
 
-#me {
+.me {
     position: absolute;
     bottom: 0%;
     left: 20em;
@@ -138,7 +138,8 @@ body {
   50%  {transform: translateY(-40em);}
   99% {transform: scale(700%) translate(15em, -5em);}
   100% {transform: scale(700%) translate(15em, -5em);
-    display: none;}
+    display: none;
+    }
 }
 
 #glasses {
@@ -488,8 +489,8 @@ a  {
 @media only screen and (max-width: 500px) {
     .vergroot {
       width: 20em;
-      height: auto;
-      margin-top: 2em;
+      height: 12em;
+      margin-top: 1em;
     }
 
     #workInfotext {
@@ -511,4 +512,60 @@ a  {
     #contactKnop {
         transform: translate(-2em, 0.2em);
     }
+
+    .contactContent {
+        max-width: 230px;
+    }
+
+    #forname {
+        max-width: 230px;
+        min-width: 230px;
+    }
+
+    #email {
+        max-width: 230px;
+        min-width: 230px;
+    }
+
+    #message {
+        max-width: 230px;
+        min-width: 230px;
+    }
+
+    .button-primary {
+        max-width: 230px;
+        min-width: 230px;
+    }
+
+    #mailImage {
+        transform: translateY(-3em) rotate(20deg);
+        width: 9em;
+        height: auto;
+    }
+
+    .name {
+        font-size: 3em;
+        transform: translate(-0.5em, 6em);
+    }
+
+    .title {
+        font-size: 1.5em;
+        transform: translate(1.2em, 11.1em);
+    }
+
+    .me {
+        left: 2em;
+    }
+
+    .nameGone {
+        transform: translate(-10em, 6em);
+    }
+
+    .titleGone {
+        transform: translate(-30em, 11.1em);
+    }
+     .me {
+        width: 35em;
+        height: auto;
+     }
 }
