@@ -30,6 +30,7 @@ workimage3.addEventListener("click", workInfo3);
 workimage4.addEventListener("click", workInfo4);
 workimage5.addEventListener("click", workInfo5);
 workimage6.addEventListener("click", workInfo6);
+workimage7.addEventListener("click", workInfo7);
 
 
 function workInfo1() {
@@ -90,10 +91,10 @@ function workInfo5() {
     workContent.className = "workContentAnimation";
     tryButton.style.display = "block"
     tryButton.innerHTML = "View"
-    workLink.href = "pdf/onepager.pdf"
-    workInfoimage.src = "images/onepager.png"
-    workName.innerHTML = "Poster"
-    workInfotext.innerHTML = "sdfsdf"
+    workLink.href = "naruto/index.html"
+    workInfoimage.src = "images/naruto.png"
+    workName.innerHTML = "Naruto website"
+    workInfotext.innerHTML = "For this assignment I made an interactive website containing the progression of the character Naruto throughout the show using HTML, CSS and javascript."
     setTimeout(workInfotoggle, 700);
 }
 
@@ -107,6 +108,19 @@ function workInfo6() {
     workInfoimage.src = "images/screencapture-127-0-0-1-5050-2024-06-14-14_28_38.png"
     workName.innerHTML = "Clothing blockchain"
     workInfotext.innerHTML = "I choose the minor \"blockchain\" and made a blockchain system where clothing suppliers would be able to enter different aspects of their manufacturing processes like washing processes. All these processes would then be saved to the blockchain and everyone would be able to view them on a webpage by scanning a QR code. This was a group project commissioned by AMFI(study) on the University of Applied Sciences in Amsterdam"
+    setTimeout(workInfotoggle, 700);
+}
+
+function workInfo7() {
+    workInfocontent.className = "workInfo";
+    workToggle();
+    workContent.className = "workContentAnimation";
+    tryButton.style.display = "block";
+    workLink.href = "Dior/index.html"
+    tryButton.innerHTML = "View"
+    workInfoimage.src = "images/dior.png"
+    workName.innerHTML = "Dior animation"
+    workInfotext.innerHTML = "For this assignment I made an animation with the Dior logo that I thought would be fitting for the brand. "
     setTimeout(workInfotoggle, 700);
 }
 

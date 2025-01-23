@@ -568,4 +568,8 @@ a  {
         width: 35em;
         height: auto;
      }
+    
+     #glasses {
+        display: none;
+     }
 }

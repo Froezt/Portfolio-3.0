@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Floris Roest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Naruto Interactive timeline</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <section id="container">
+        <img id="scrollzonder" usemap="#workmap" src="images/scrollzonder.png">
+        <img id="scrollmet" src="images/scrolll.png">
+        <img id="content" onclick="" src="images/content.png">
+        <!--        https://naruto.fandom.com/wiki/Summoning_Technique-->
+        <img id="logo" src="images/logo.png" alt="Naruto logo">
+        <!--        https://en.m.wikipedia.org/wiki/File:Naruto_logo.svg
+                    Dit logo heeft een klein -->
+        <img id="arrow" src="images/arrow.png" alt="Arrow">
+        <img class="progress" usemap="#workmap1" onclick="" src="images/progress1.png">
+        <img class="progress" usemap="#workmap1" onclick="" src="images/progress2.png">
+        <div id="anchor1"></div>
+        <div id="anchor2"></div>
+        <div id="anchor3"></div>
+        <div id="anchor4"></div>
+        <div id="anchor5"></div>
+        <map name="workmap">
+            <area shape="rect" id="map" coords="0,0,368,976">
+        </map>
+        <map name="workmap1">
+            <area shape="rect" coords="0,0,30,22" href="#inhoud">
+            <area shape="rect" coords="200,0,170,32" href="#anchor1">
+            <area shape="rect" coords="370,0,340,32" href="#anchor2">
+            <area shape="rect" coords="540,0,510,32" href="#anchor3">
+            <area shape="rect" coords="720,0,690,32" href="#anchor4">
+            <area shape="rect" coords="888,0,850,32" href="#anchor5">
+        </map>
+        <!--        https://www.w3schools.com/html/html_images_imagemap.asp
+                    Door de progress bar afbeelding te mappen kan ik verschillende delen van de image laten lijden naar verschillende delen op de pagina-->
+        <p id="open">Undo the seal!</p>
+        <section>
+            <article id="inhoud">
+                <a href="#anchor1">
+                    <h1>1. The beginning</h1>
+                </a>
+                <a href="#anchor2">
+                    <h1>2. Growing up</h1>
+                </a>
+                <a href="#anchor3">
+                    <h1>3. Getting better</h1>
+                </a>
+                <a href="#anchor4">
+                    <h1>4. Peak</h1>
+                </a>
+                <a href="#anchor5">
+                    <h1>5. The end</h1>
+                </a>
+                <img id="hoofd" src="images/hoofd.png">
+                <!--            https://twitter.com/maxiuchiha22z/status/1461023746848964620-->
+            </article>
+        </section>
+        <section id="theBeginning">
+            <article>
+                <h1>The Beginning</h1>
+                <p class="about">Naruto Uzumaki was born without any parents, both of them died while trying to save Naruto after an attack by the 9 Tailed Fox on the Village in the leaves. They were barely able to save him and had to seal the beast inside of their child to save the village. Because of this, Naruto grew up on his own, supervised by the third hokage, the leader of the village hidden in the leaves.</p>
+                <img id="baby" onclick="" src="images/baby.png">
+                <!--                https://www.pinterest.co.uk/pin/501307002253523727/-->
+            </article>
+            <article>
+                <p class="description">The 9 tails seal on Naruto's stomach.</p>
+                <img id="seal" onclick="" src="images/seal.png">
+                <!--                https://naruto.fandom.com/wiki/Eight_Trigrams_Sealing_Style-->
+            </article>
+            <article>
+                <img id="tails" onclick="" src="images/9tails.png">
+                <!--                https://villains.fandom.com/wiki/Kurama_(Naruto)-->
+                <p class="description">the 9 tails</p>
+            </article>
+        </section>
+        <section id="growingUp">
+            <article>
+                <h1>Growing up</h1>
+                <p class="about">While growing up Naruto didn't have many friends. The beast that destroyed the village years ago was sealed inside him, which made a lot of people resent him. Parents pulled away their children from Naruto and told them not to play with him. While in the academy, Naruto spend most his time playing pranks on everyone in the village, which made them dislike him even more. Even though Naruto didn't have any real friends yet, he did hang around with Choji and Shikamaru, who were also troublemakers in class. This was a very sad time for Naruto, he didn't have any friends or other people to connect with. The loneliness made him pull pranks so he would at least get some attention. And when he got the attention he made sure to tell everyone to pay attention to him, as he was going to be the next hokage, believe it!</p>
+            </article>
+            <article>
+                <p class="description">Choji and Shikamaru</p>
+                <img id="shika" onclick="" src="images/shika.jpg">
+                <!--                https://nl.pinterest.com/pin/615937686523806444/-->
+            </article>
+            <article>
+                <img id="tails" onclick="" src="images/prank.png">
+                <!--                https://narutopsy.home.blog/2018/12/01/narutopsy-episode-4/-->
+                <p class="description">Naruto pulling a prank</p>
+            </article>
+        </section>
+        <section id="gettingBetter">
+            <article>
+                <img id="iruka" src="images/iruka.webp">
+                <!--                https://hero.fandom.com/wiki/Iruka_Umino-->
+                <p id="naam">Iruka Sensei</p>
+            </article>
+            <article>
+                <h1>Getting better</h1>
+                <p class="about">When it was finally time to graduate for Naruto, he failed the test. Being distraught he let himself get manipulated to steal a secret scroll from the village. He got caught but they noticed that Naruto wasn't at fault. Together with sensei Iruka they fought against the manipulator. When Iruka sensie got hurt, Naruto peaked into the scroll. Inside was the shadow clone jutsu. After trying it Naruto found out he had a talent for this jutsu. He used it and created hundreds of clones. After fighting off the manipulator, Iruka sensei and naruto became friends and Iruka let him graduate, making Naruto an official ninja! That means that he will get a squad consisting of 2 other ninja and a sensei. This is when Naruto gets teamed up with Sasuke, Sakura and Kakashi sensei. After getting through Kakashi's harsh exam they all become good friends.</p>
+            </article>
+            <article>
+                <p id="tip">Click on Naruto!</p>
+                <img id="clone1" src="images/jutsu.png">
+                <img id="smoke1" src="images/smoke,gif.webp">
+                <img id="clone3" src="images/jutsu.png">
+                <img id="smoke2" src="images/smoke,gif.webp">
+                <img id="clone2" src="images/jutsu.png">
+                <!--                https://www.klipartz.com/en/sticker-png-qejvs/download-->
+                <!--                https://herzenswarme.tumblr.com/-->
+            </article>
+            <article>
+                <img id="team7" src="images/team7.webp">
+                <!--                https://naruto.fandom.com/wiki/Team_7_(Kakashi)-->
+                <p class="description">Team 7 with Kakashi, Sasuke, Sakura and Naruto</p>
+            </article>
+        </section>
+        <section id="peak">
+            <article>
+                <p id="paindescription">Naruto with sage mode power.</p>
+                <img id="sagemode" src="images/sage.webp">
+                <!--                https://naruto-ultimate-ninja-storm.fandom.com/wiki/Naruto_Uzumaki_(Sage_Mode)-->
+            </article>
+            <article>
+                <h1>Peak</h1>
+                <p class="about">After doing missions with team 7 for a while, Sasuke decides to leave the village to gain power to take revenge on his brother, who murdered his whole family. Naruto goes after him but fails to bring him back to the village. After promising Sakura to bring Sasuke back he goes through heavy training. While training Naruto sometimes goes overboard, which makes him use the 9 tails power, but he can't control it yet. While training for a couple years with master Jiraya, he almost killed him. When Naruto came back to the village he had improved a lot, defeating bigger and stronger enemies every time. When the village g0t obliterated by Pain, the leader of the group the Akatsuki, Naruto shows up and beats him, convincing Pain to revive all casualties in the village. After this Naruto is quickly seen as a hero and gets praised by everyone.</p>
+            </article>
+            <article>
+                <img id="painleaf" src="images/painleaf.jpg">
+                <!--                https://www.youtube.com/watch?v=An1ZrG0mbf4-->
+                <p class="description">Pain about to blast the leaf village.</p>
+            </article>
+            <article>
+                <img id="pain" src="images/pain.png">
+                <!--                https://greatcharacters.miraheze.org/wiki/Pain-->
+                <p id="paindescription">Pain</p>
+            </article>
+        </section>
+        <section id="theEnd">
+            <article>
+                <img id="tailsnaruto" src="images/9tailnaruto.png">
+                <p id="description">9 Tails Naruto</p>
+            </article>
+            <article>
+                <h1>The End</h1>
+                <p class="about">Naruto ends up in a war, where Madara and Obito try to put everyone into an infinite tsukuyomi, where everyone gets into a dream for the rest of their lives. After mastering the 9 tials power Naruto was able to beat them. Then Kaguya showed up. A god from another world and the reason people in the shinobi world have these powers. After Sasuke and Naruto also beat her, they went toe to toe against eachother to dictate how the world will continue. Sasuke thinks he can control everyone while naruto thinks everyone should work together. After a long fight sasuke said that he had lost and would be Naruto's friend again. Back in the village Naruto started doing some missions again and would end up falling in love with Hinata, the girl who had a crush on him since the acedemy.</p>
+            </article>
+            <article>
+                <img id="nvss" src="images/nvss.webp">
+<!--                https://www.denofgeek.com/tv/best-naruto-battles-anime-history/-->
+                <p id="description">Sasuke vs Naruto</p>
+            </article>
+            <article>
+                <p id="description">Hinata</p>
+                <img id="tailsnaruto" src="images/hinata.png">
+<!--                https://www.hiclipart.com/free-transparent-background-png-clipart-vgkbo-->
+            </article>
+        </section>
+
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
