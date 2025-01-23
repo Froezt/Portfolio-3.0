@@ -431,7 +431,7 @@ input, textarea {
 
 @keyframes contactgone {
     0%   {display: flex; opacity: 1; transform: translateY(0em);}
-  100% { opacity: 0; transform: translateY(-2em); display: none;}
+  100% { opacity: 0; transform: translateY(-2em); display: none; visibility: hidden;}
 }
 
 
